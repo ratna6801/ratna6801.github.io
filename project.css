@@ -1,0 +1,356 @@
+/* Common CSS Start */
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.align-v-center {
+    align-items: center;
+}
+
+.pad {
+    padding: 100px;
+}
+
+/* Common CSS End */
+
+/* Main Header CSS Start */
+header.main-header {
+    background-color: #0000ff61;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.main-header .links a {
+    color: #FFF;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.main-header .links {
+    list-style: none;
+    display: flex;
+}
+
+
+.main-header .search {
+    background-color: transparent;
+    border: none;
+}
+
+.main-header button.search {
+    width: 34px;
+}
+
+.main-header button.search img {
+    width: 100%;
+}
+
+/* Main Header CSS End ----------------------------*/
+
+
+/* Main Banner CSS Start */
+.section-1 {
+    background-image: linear-gradient(#0000ff59, #0000ff8a), url(./pic/banner_image.jpg);
+
+}
+
+.main-banner-section {
+
+    background-position: center;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    color: #FFF;
+}
+
+.main-banner-section button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.main-banner-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: block;
+}
+
+/* Main Banner CSS End */
+
+/*second section*/
+.justify-v-center {
+    justify-content: center;
+}
+
+
+.second-banner h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.inside-second {
+    text-align: center;
+    color: #FFF;
+    justify-content: center;
+
+}
+
+.second-banner {
+    background-color: #4999e7;
+    padding-top: 50px;
+
+    color: #FFF;
+}
+
+.secondbannersection {
+    text-align: center;
+    padding: 100px;
+    align-items: flex-start;
+}
+.secondbannersection h3{
+    font-size: 30px;
+}
+
+
+/*section thrid*/
+
+.thrid-banner {
+    background-image: linear-gradient(#e2e119bd, #deed52cc), url(./pic/pet_care_banner.png.jpg);
+   
+    padding-top: 50px;
+    color: #FFF;
+   
+}
+
+.cricle {
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thrid-banner h4 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+/*section4*/
+.fourth-banner {
+    background-color: dodgerblue;
+    background-position: center;
+    text-align: left;
+    color: #FFF;
+    padding: 100px 150px;
+    justify-content: space-between;
+
+}
+
+.inside-fourth {
+    padding-top: 100px;
+    align-items: center;
+    padding-right: 70px;
+    font-size: 25px;
+}
+
+
+.inside-fourth button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.fourthimage {
+    justify-content: space-between;
+}
+
+/*section5*/
+
+
+.fifth-banner {
+    background-color: rgb(90, 150, 210);
+    background-position: center;
+    text-align: left;
+    color: #FFF;
+    padding: 100px 150px;
+    justify-content: space-between;
+
+}
+
+.inside-fifth {
+    padding-top: 100px;
+    align-items: center;
+    padding-left: 150px;
+    font-size: 25px;
+}
+
+.inside-fifth button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+/*section6*/
+.inside-six button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.inside-six {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: rgb(6, 147, 255);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sixth-banner {
+    background-color: rgb(62, 147, 232);
+    background-position: center;
+    padding-top: 50px;
+    color: #FFF;
+}
+
+.inside-second h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.pads {
+    padding: 50px;
+}
+
+
+
+/*section7*/
+
+.seven-banner {
+    background-color: rgb(16, 111, 207);
+    background-position: center;
+    padding-top: 50px;
+    color: #FFF;
+    
+}
+
+.inside img {
+    width: 150px;
+    height: 110px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.sectionsub1 {
+
+    padding-top: 100px;
+    justify-content: center;
+    text-align: left;
+    padding-left: 220px;
+    padding-right: 220px;
+    justify-content: space-between;
+}
+
+.sectionsub2 {
+    padding-top: 50px;
+    padding-right: 220px;
+    padding-left: 220px;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*--section 8--*/
+
+
+.eight-banner{
+    background-image: linear-gradient(#ffff0082,#ffff00a8), url(./pic/dr_Jenny.jpg);
+   
+    
+    color: white;
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 400px;
+  
+    
+}
+
+.eight-banner h2{
+    font-size: 30px;
+}
+.eight-banner p{
+    font-size: 40px;
+    
+}
+/*--section-9*/
+
+.nine-banner{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.list-place{
+    list-style: none;
+
+
+}
+.inside-nine{
+    padding: 20px 15px;
+}
+.nine-lists{
+    padding-left: 20px;
+    justify-content: space-around;
+
+}
+.fa-brands{
+    background-color: #ffffff00;
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 25px;
+
+}
