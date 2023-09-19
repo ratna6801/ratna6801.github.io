@@ -24,28 +24,28 @@ body {
 header.main-header {
     background-color: #0000ff61;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding: 15px 50px;
 }
-.main-header img{
-    width: 100px;
-}
+
 .main-header .links a {
     color: #FFF;
-    padding: 5px 5px;
+    padding: 5px 20px;
     text-decoration: none;
 }
 
 .main-header .links {
     list-style: none;
     display: flex;
+    padding-inline-start: 0px;
 }
+/*
 .links li:first-child a 
 {
     padding-left: 0px;
 
 }
+*/
 
 
 .main-header .search {
@@ -53,9 +53,11 @@ header.main-header {
     border: none;
     
 }
+/*
 .search{
     display: none;
 }
+*/
 .main-header button.search {
     width: 34px;
 }
@@ -107,6 +109,7 @@ header.main-header {
 .block {
     display: block;
 }
+
 
 /* Main Banner CSS End */
 
@@ -409,7 +412,7 @@ img {
 
 }
 
-/* ----desktop view---*/
+/* ----desktop view---
 
 @media( min-width:768px){
     header.main-header{
@@ -423,4 +426,4 @@ img {
     .search{
         display: block;
     }
-}
+}*/
