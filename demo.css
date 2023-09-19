@@ -24,13 +24,16 @@ body {
 header.main-header {
     background-color: #0000ff61;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 15px 50px;
 }
-
+.main-header img{
+    width: 100px;
+}
 .main-header .links a {
     color: #FFF;
-    padding: 5px 20px;
+    padding: 5px 5px;
     text-decoration: none;
 }
 
@@ -38,13 +41,21 @@ header.main-header {
     list-style: none;
     display: flex;
 }
+.links li:first-child a 
+{
+    padding-left: 0px;
+
+}
 
 
 .main-header .search {
     background-color: transparent;
     border: none;
+    
 }
-
+.search{
+    display: none;
+}
 .main-header button.search {
     width: 34px;
 }
@@ -125,7 +136,9 @@ header.main-header {
     text-align: center;
     color: white;
     font-size: 20px;
-    position: relative;   
+    position: relative;
+    
+    
 }
 .secondbannersection {
     display: flex;
@@ -382,13 +395,32 @@ img {
     padding-left: 15px;
     padding-right: 15px;
   }
+ 
 .fa-brands{
     background-color: #ffffff;
     color: black;
     border: 10px solid white;
     border-radius: 50%;
     font-size: 30px;
-    justify-content: space-between;
-    margin-right: 10px;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 
+}
+
+/* ----desktop view---*/
+
+@media( min-width:768px){
+    header.main-header{
+        
+        flex-direction: row;
+    }
+    main-header .links a{
+        padding: 5px 20px;
+
+    }
+    .search{
+        display: block;
+    }
 }
