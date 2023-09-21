@@ -461,6 +461,7 @@ header.main-header {
     height: 50px;
     text-align: center;
     margin: 5px;
+    cursor: pointer;
 
 }
 
@@ -504,7 +505,7 @@ header.main-header {
     .fourthimage img {
         padding-right: 100px;
         margin: 0px;
-        width: 45%;
+        
     }
 
     .fifth-banner {
