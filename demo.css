@@ -112,9 +112,7 @@ header.main-header {
     margin-bottom: 20px;
 }
 
-.block {
-    display: block;
-}
+
 
 
 /* Main Banner CSS End */
@@ -153,7 +151,6 @@ header.main-header {
     display: flex;
     flex-direction: column;
     color: white;
-    padding-left: 20px;
     background-position: top;
     padding-top: 50px;
     justify-content: space-evenly;
@@ -180,7 +177,7 @@ header.main-header {
 }
 
 .thrid-banner h2 {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 8px;
 }
 
@@ -255,7 +252,7 @@ header.main-header {
 
 .fourthimage img {
     justify-content: space-between;
-    margin: 20px 10px;
+
     background-size: cover;
     width: 100%;
 }
@@ -298,7 +295,7 @@ header.main-header {
 
 .fifthimage img {
     justify-content: space-between;
-    margin: 20px 10px;
+
     background-size: cover;
     width: 100%;
 }
@@ -362,10 +359,7 @@ header.main-header {
 
 }
 
-.seven-banner img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
+
 
 .sectionsub1>div>img {
     width: 100px;
@@ -410,7 +404,7 @@ header.main-header {
 
 
 .eight-banner {
-    background-image: linear-gradient(#ffff0082, #ffff00a8), url(./pic/dr_Jenny.jpg);
+    background-image: linear-gradient(#ffff0082, #897d13a6), url(./pic/dr_Jenny.jpg);
     color: white;
     text-align: center;
     padding-top: 350px;
@@ -505,7 +499,7 @@ header.main-header {
     .fourthimage img {
         padding-right: 100px;
         margin: 0px;
-        
+
     }
 
     .fifth-banner {
@@ -515,10 +509,11 @@ header.main-header {
         width: 100%;
     }
 
-    .fifhtimage img {
+    .fifthimage img {
         padding-left: 100px;
-        width: 45%;
+        width: 100%;
         margin: 0px;
+        padding-right: 30px;
     }
 
     .inside-fifth {
@@ -533,20 +528,330 @@ header.main-header {
         flex-direction: row;
     }
 
-    .sectionsub1{
+    .sectionsub1 {
         flex-direction: row;
         padding-left: 200px;
         padding-right: 200px;
-    
+
     }
-    .sectionsub2{
+
+    .sectionsub2 {
         flex-direction: row;
         padding-left: 200px;
         padding-right: 200px;
         padding-top: 50px;
     }
+
+    .inside {
+        display: flex;
+    }
+
     .section-9 {
         display: flex;
         flex-direction: row;
+    }
+
+    .block {
+        display: block;
+    }
+}
+/*----DESKTOP VIEW ENDS----*/
+
+/*----MOBILE VIEW STARTS----*/
+
+@media(max-width:767px) {
+
+    .section-1 {
+        font-size: 17px;
+    }
+
+    .petlogo img {
+        width: 100%;
+    }
+
+    .main-banner-section {
+        font-size: 18px;
+    }
+
+    .main-banner-section h1 {
+        font-size: 40px;
+    }
+
+    .links li:first-child a {
+        padding-left: 5px;
+    }
+
+    header.main-header {
+        padding: 15px 15px;
+    }
+
+    .main-header .links a {
+        color: #FFF;
+        padding: 5px 8px;
+
+    }
+
+    .main-banner-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .inside-second,
+    .secondbannersection {
+        padding: 0px 15px;
+
+    }
+
+    .secondbannersection h3 {
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .secondbannersection div {
+        padding-bottom: 30px;
+    }
+
+    .second-banner {
+        font-size: 19px;
+    }
+
+    .second-banner h2 {
+        font-size: 40px;
+    }
+
+    .thridinside {
+        padding: 0px 15px;
+
+    }
+
+    .thridinside p {
+        font-size: 19px;
+    }
+
+    .thrid-banner h2 {
+        font-size: 40px;
+    }
+
+    .cricle {
+
+        padding: 80px 70px;
+    }
+
+    .fourthimage img {
+        margin-top: 20px;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth-banner {
+        background-color: dodgerblue;
+        background-position: center;
+        text-align: left;
+        color: #FFF;
+        padding: 70px 15px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .inside-fourth h1 {
+        font-size: 40px;
+    }
+
+    .inside-fourth p {
+        font-size: 19px;
+    }
+
+    .fifth-banner {
+        background-color: rgb(90, 150, 210);
+        background-position: center;
+        text-align: left;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        padding: 70px 15px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fifthimage img {
+        margin-top: 20px;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+
+    .inside-fifth h1 {
+        font-size: 40px;
+    }
+
+    .inside-fifth p {
+        font-size: 19px;
+    }
+
+    .inside-second h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .sixth-banner p {
+        font-size: 18px;
+    }
+
+    .sectionsub1 {
+        padding: 0px 15px;
+        padding-top: 50px;
+    }
+
+    .sectionsub2 {
+        padding: 0px 15px;
+        padding-bottom: 50px;
+    }
+
+    .inside h2,
+    .paw {
+
+        text-align: center;
+    }
+
+    .eight-banner p {
+        font-size: 30px;
+        padding: 0px 15px;
+
+    }
+
+    .section-9>div>h2 {
+        text-align: center;
+    }
+
+    .section-9>div>p {
+        text-align: center;
+    }
+
+    .section-9>div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .section-9 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .icons {
+        text-align: center;
+    }
+
+}
+
+/*------MOBILE VIEW ENDS----*/
+
+
+/*-------TAB VIEW STARTS -----*/
+
+@media (min-width:768px) and (max-width:991px){
+    header.main-header{
+        padding: 15px 20px;
+    }
+    .secondbannersection {
+        flex-direction: column;
+    }
+    .inside-second,
+    .secondbannersection {
+        padding: 0px 20px;
+
+    }
+    .secondbannersection h3 {
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+    .secondbannersection div {
+        padding-bottom: 40px;
+        padding-top: 15px;
+    }
+    .thridinside {
+        padding: 0px 20px;
+
+    }
+    .cricle{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .fourthimage img {
+        padding-right: 0px;
+        margin: 0px;
+    }
+
+    .fourth-banner {
+        flex-direction: row;
+        text-align: left;
+        padding: 100px 20px;
+        width: 100%;
+    }
+    .inside-fourth {
+        padding-right: 15px;
+        width: 70%;
+        padding-left: 0px;
+        
+    }
+    .fifth-banner {
+        flex-direction: row;
+        text-align: left;
+        padding: 100px 20px;
+        width: 100%;
+    }
+    .inside-fifth {
+        padding-left: 15px;
+        width: 55%;
+        padding-right: 0px;
+        font-size: 23px;
+        
+    }
+    .fifthimage img {
+        padding-right: 15px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .sixthin {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .sectionsub1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        padding-top: 50px;
+    }
+    .sectionsub2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        padding-bottom: 100px;
+    }
+    .inside h2,
+    .paw {
+
+        text-align: center;
+    }
+    .eight-banner p {
+        font-size: 35px;
+        padding: 0px 20px;
+
+    }
+    .section-9{
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    .section-9>div {
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    .fa-brands{
+        margin: 3px;
     }
 }
