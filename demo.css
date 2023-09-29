@@ -18,6 +18,8 @@ body {
     padding: 100px;
 }
 
+
+
 /* Common CSS End */
 
 /* Main Header CSS Start */
@@ -469,15 +471,25 @@ header.main-header {
     main-header .links a {
         padding: 5px 20px
     }
-
+    .header.main-header{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
     .search {
         display: block;
     }
-
+.second-banner{
+    padding-left: 60px;
+    padding-right: 60px;
+}
     .secondbannersection {
         flex-direction: row;
+      
     }
-
+.thrid-banner{
+    padding-left: 60px;
+    padding-right: 60px;
+}
     .cricle {
         flex-direction: row;
     }
@@ -487,6 +499,8 @@ header.main-header {
         text-align: left;
         padding: 100px 100px;
         width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .inside-fourth {
@@ -507,6 +521,8 @@ header.main-header {
         text-align: left;
         padding: 100px 100px;
         width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .fifthimage img {
@@ -523,34 +539,49 @@ header.main-header {
         padding-right: 100px;
 
     }
-
+.sixth-banner{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
     .sixthin {
         flex-direction: row;
     }
-
+.seven-banner{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.paw{
+    padding-top: 30px;
+    padding-right: 20px;
+}
     .sectionsub1 {
+        padding-top: 50px;
         flex-direction: row;
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 150px;
+        padding-right: 150px;
 
     }
 
     .sectionsub2 {
         flex-direction: row;
-        padding-left: 200px;
-        padding-right: 200px;
-        padding-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+       
     }
 
     .inside {
         display: flex;
     }
-
+.eight-banner{
+    padding-left: 60px;
+    padding-right: 60px;
+}
     .section-9 {
         display: flex;
         flex-direction: row;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     .section-9>div {
         padding-left: 0px; 
@@ -585,12 +616,15 @@ header.main-header {
         font-size: 40px;
     }
 
-    .links li:first-child a {
-        padding-left: 5px;
+    ul.links li:first-child a {
+        padding-left: 0px;
     }
 
     header.main-header {
         padding: 15px 15px;
+    }
+    .main-header .links{
+        margin-right: -5px;
     }
 
     .main-header .links a {
@@ -635,16 +669,37 @@ header.main-header {
     .thridinside p {
         font-size: 19px;
     }
-
+.thrid-banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
     .thrid-banner h2 {
         font-size: 40px;
     }
 
     .cricle {
 
-        padding: 80px 70px;
+        padding: 80px 15px;
     }
+.round{
+    border: 8px solid white;
+    border-radius: 50%;
+    width: 213px;
+    height: 213px;
+    padding: 30px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
 
+}
+.round strong {
+    font-size: 32px;
+    display: block;
+}
     .fourthimage img {
         margin-top: 20px;
         background-size: cover;
@@ -705,7 +760,13 @@ header.main-header {
         font-size: 40px;
         margin-bottom: 20px;
     }
+    .pads{
+        padding: 30px 15px;
+    }
+.sixthin{
+    padding-bottom: 30px;
 
+}
     .sixth-banner p {
         font-size: 18px;
     }
@@ -751,6 +812,7 @@ header.main-header {
     .section-9 {
         padding-left: 15px;
         padding-right: 15px;
+        font-size: 18px;
     }
 
     .icons {
@@ -784,13 +846,18 @@ header.main-header {
         padding-bottom: 40px;
         padding-top: 15px;
     }
+    .thrid-banner {
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
     .thridinside {
         padding: 0px 20px;
 
     }
+
     .cricle{
-        padding-right: 20px;
-        padding-left: 20px;
+        padding: 10px;
+        
     }
     .fourthimage img {
         padding-right: 0px;
