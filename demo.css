@@ -28,7 +28,7 @@ header.main-header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 10px 50px;
     align-items: center;
 }
 
@@ -45,7 +45,7 @@ header.main-header {
 }
 
 
-.petlogo {
+.petlogo img {
     align-items: center;
     width: 100px;
 }
@@ -96,6 +96,14 @@ header.main-header {
     color: #FFF;
     font-size: 20px;
 }
+.main-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: rgb(33 54 243 / 52%);
+}
 
 .main-banner-section button {
     background: #d2ba00;
@@ -112,6 +120,7 @@ header.main-header {
 .main-banner-section h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    padding-top: 100px;
 }
 
 
@@ -385,6 +394,7 @@ header.main-header {
     text-align: left;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
 }
 
 .sectionsub2 {
@@ -396,6 +406,7 @@ header.main-header {
     padding-bottom: 100px;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
 }
 
 * {
@@ -475,6 +486,22 @@ header.main-header {
         padding-left: 60px;
         padding-right: 60px;
     }
+
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+      }
+      
+      .fixed-bottom {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1030;
+      }
     .search {
         display: block;
     }
@@ -604,9 +631,7 @@ header.main-header {
         font-size: 17px;
     }
 
-    .petlogo img {
-        width: 100%;
-    }
+    
 
     .main-banner-section {
         font-size: 18px;
